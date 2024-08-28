@@ -1,0 +1,88 @@
+baseURL = 'https://lwl.lol/'
+languageCode = 'zh-cn'
+title = 'Soulter'
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+# Google analytics code
+googleAnalytics = "G-xxxxxxxxx"
+
+[params]
+# Meta description
+description = "A Tech Blog"
+
+# Appearance settings
+theme = 'light'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+# homeIntroTitle = 'Hi!'
+homeIntroContent = """
+Developer / ACG / Guitar
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 20
+listSummaries = false
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Social icons
+[[params.social]]
+name = "github"
+url = "https://github.com/user"
+
+[[params.social]]
+name = "email"
+url = "mailto:soulterl@outlook.com"
+
+
+[[params.social]]
+name = "telegram"
+url = "https://t.me/soulter618"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "about"
+url = "https://lwl.lol"
+
+[[params.menu]]
+name = "album"
+url = "/album"
+
+
+[[params.menu]]
+name = "friends"
+url = "/friends"
+
+[[params.menu]]
+name = "bangumi"
+url = "/bangumi"
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = ''
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"

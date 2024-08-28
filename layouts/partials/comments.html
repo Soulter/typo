@@ -1,0 +1,15 @@
+<!-- waline comment -->
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
+<div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1" style="margin-top: 32px;">
+<div id="waline-container"></div>
+</div>
+<script type="module">
+import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+init({
+        el: '#waline-container',
+        serverURL: 'https://blogcomment.soulter.top/',
+        emoji: [
+        '//unpkg.com/@waline/emojis@1.2.0/bilibili'
+        ]
+});
+</script>
