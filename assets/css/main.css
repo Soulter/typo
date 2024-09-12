@@ -42,6 +42,8 @@ p {
   margin-bottom: var(--p-margin-bottom);
   font-size: var(--p-font-size);
   line-height: var(--p-line-height);
+  letter-spacing: 1px;
+  color: #333;
 }
 
 ul {
