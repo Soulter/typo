@@ -70,7 +70,7 @@ url = "/friends"
 
 [[params.menu]]
 name = "bangumi"
-url = "/bangumi"
+url = "/anime"
 
 # Syntax highligth on code blocks
 [markup]
